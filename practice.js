@@ -90,14 +90,28 @@
 
 // # 9.  Start with an array of hashes and create a new array of number values from each hash's :age key times 2.
 // #     For example, [{name: "Alice", age: 27}, {name: "Blane", age: 16}] becomes [54, 32].
-const person = [
-  { name: "Alice", age: 27 },
-  { name: "Blane", age: 16 },
-];
+// const person = [
+//   { name: "Alice", age: 27 },
+//   { name: "Blane", age: 16 },
+// ];
+
+// const ageTimesTwo = person.map((x) => {
+//   let multipleAge = x.age * 2;
+
+//   return multipleAge;
+// });
+
+// console.log(ageTimesTwo);
 
 // # 10. Start with an array of numbers and create a new array with each number converted into a string.
 // #     For example, [1, 2, 3] becomes ["1", "2", "3"].
 
+// const numArr = [1, 2, 3];
+
+// const numToStr = numArr.map((x) => {
+//   return String(x);
+// });
+// console.log(numToStr);
 // # SOLUTIONS (using while loop): https://gist.github.com/peterxjang/b9ac4390aad2301a2238efc95c904f3d
 // # SOLUTIONS (using .each shortcut): https://gist.github.com/peterxjang/66598fd7cdbc67fe663624e217cebbaf
 // # SOLUTIONS (using .map shortcut): https://gist.github.com/peterxjang/23a8f8a51601e4288ba3a8aa6d1f1c98
