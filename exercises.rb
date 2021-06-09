@@ -265,3 +265,130 @@
 # SOLUTIONS (using while loop): https://gist.github.com/peterxjang/b9ac4390aad2301a2238efc95c904f3d
 # SOLUTIONS (using .each shortcut): https://gist.github.com/peterxjang/66598fd7cdbc67fe663624e217cebbaf
 # SOLUTIONS (using .map shortcut): https://gist.github.com/peterxjang/23a8f8a51601e4288ba3a8aa6d1f1c98
+
+
+
+#  1. Start with an array of numbers and create a new array with only the numbers less than 20.
+#     For example, [2, 32, 80, 18, 12, 3] becomes [2, 18, 12, 3].
+# arr = [2, 32, 80, 18, 12, 3] 
+# new_arr= []
+# arr.each do |index|
+#   if index < 20
+#     new_arr << index
+#   end
+# end
+# puts new_arr
+
+#  2. Start with an array of strings and create a new array with only the strings that start with the letter "w".
+#     For example, ["winner", "winner", "chicken", "dinner"] becomes ["winner", "winner"].
+
+# strArr = ["winner", "winner", "chicken", "dinner"]
+# newStrArr = []
+
+# strArr.each do |index|
+#   if index[0] == "w"
+#     newStrArr << index
+#   end
+# end
+# puts newStrArr
+
+#  3. Start with an array of hashes and create a new array with only the hashes with prices greater than 5 (from the :price key).
+#     For example, [{name: "chair", price: 100}, {name: "pencil", price: 1}, {name: "book", price: 4}] becomes [{name: "chair", price: 100}].
+# newProducts = []
+# product =  [{name: "chair", price: 100}, {name: "pencil", price: 1}, {name: "book", price: 4}]
+# i = 0
+# while i < product.length
+#  product = product[i]
+#   if product[:price] > 5 
+#  newProdocts << product[:price]
+#   end
+#   i+=1
+# end
+# p newProducts
+
+
+#  4. Start with an array of numbers and create a new array with only the even numbers.
+#     For example, [2, 4, 5, 1, 8, 9, 7] becomes [2, 4, 8].
+# numArr = [2, 4, 5, 1, 8, 9, 7]
+# newNumArr = []
+# i = 0
+# while i < numArr.length
+#   if numArr[i] % 2 == 0
+#     newNumArr << numArr[i]
+#   end
+#   i+=1
+# end
+# p newNumArr
+
+#  5. Start with an array of strings and create a new array with only the strings shorter than 4 letters.
+#     For example, ["a", "man", "a", "plan", "a", "canal", "panama"] becomes ["a", "man", "a", "a"].
+#   strArr = ["a", "man", "a", "plan", "a", "canal", "panama"]
+#   newStringArr = []
+#   i = 0
+#   while i < strArr.length
+#     string = strArr[i]
+#     if string.length < 4 
+#     newStringArr  << string
+#     end
+#     i+=1
+#   end
+# p newStringArr
+
+
+#  6. Start with an array of hashes and create a new array with only the hashes with names shorter than 6 letters (from the :name key).
+#     For example, [{name: "chair", price: 100}, {name: "pencil", price: 1}, {name: "book", price: 4}] becomes [{name: "chair", price: 100}, {name: "book", price: 4}].
+# item = [{name: "chair", price: 100}, {name: "pencil", price: 1}, {name: "book", price: 4}]
+# newItem = []
+# i = 0
+
+# while i < item.length
+#   eachItem = item[i]
+#   itemName = eachItem[:name]
+#   if itemName.length < 6
+#     newItem << itemName
+#   end
+#   i+=1
+# end
+# p newItem
+
+
+#  7. Start with an array of numbers and create a new array with only the numbers less than 10.
+#     For example, [8, 23, 0, 44, 1980, 3] becomes [8, 0, 3].
+# num = [8, 23, 0, 44, 1980, 3]
+# newArr = []
+# num.each do |a |
+#   if a < 10
+#   newArr << a
+#   end
+# end
+# p newArr
+
+
+#  8. Start with an array of strings and create a new array with only the strings that don't start with the letter "b".
+#     For example, ["big", "little", "good", "bad"] becomes ["little", "good"].
+
+# strArr = ["big", "little", "good", "bad"]
+# i = 0
+# newStr = []
+# while i < strArr.length
+#   string = strArr[i]
+#   if string[0] !="b"
+#     newStr << string
+#   end
+#   i +=1 
+# end
+# p newStr
+
+
+
+#  9. Start with an array of hashes and create a new array with only the hashes with prices less than 10 (from the :price key).
+#     For example, [{name: "chair", price: 100}, {name: "pencil", price: 1}, {name: "book", price: 4}] becomes [{name: "pencil", price: 1}, {name: "book", price: 4}].
+  
+
+# 10. Start with an array of numbers and create a new array with only the odd numbers.
+#     For example, [2, 4, 5, 1, 8, 9, 7] becomes [5, 1, 9, 7].
+
+
+# SOLUTIONS (using while loop): https://gist.github.com/peterxjang/7de16ed43ea506e98df3fa15074b84f8
+# SOLUTIONS (using .each shortcut): https://gist.github.com/peterxjang/a702894841c7018ed8c127b647ae21f8
+# SOLUTIONS (using .select shortcut): https://gist.github.com/peterxjang/b8c8fb8b77b2cae7bb9cc62a3a434761

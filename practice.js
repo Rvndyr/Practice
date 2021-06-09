@@ -115,3 +115,28 @@
 // # SOLUTIONS (using while loop): https://gist.github.com/peterxjang/b9ac4390aad2301a2238efc95c904f3d
 // # SOLUTIONS (using .each shortcut): https://gist.github.com/peterxjang/66598fd7cdbc67fe663624e217cebbaf
 // # SOLUTIONS (using .map shortcut): https://gist.github.com/peterxjang/23a8f8a51601e4288ba3a8aa6d1f1c98
+
+//a function that takes in a string and returns the same string with all duplicates removed.
+
+// const removeDupes = (str) => {
+//loop over the string
+//compare each elem to the others
+//   console.log(str)
+//   const joined = str.concat()
+
+// }
+
+// console.log(removeDupes('the quick brown fox jumped over the lazy dog'))
+//input: the quick brown fox jumped over the lazy dog
+//output: thequickbrownfxjumpdvzyg
+
+// let strDupe = "the quick brown fox jumped over the lazy dog";
+
+// let index = 0;
+
+// while (index < strDupe.length) {
+//   if (strDupe[index] ==)
+//   console.log(strDupe[index]);
+
+//   index++;
+// }
