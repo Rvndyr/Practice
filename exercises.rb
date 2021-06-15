@@ -392,3 +392,100 @@
 # SOLUTIONS (using while loop): https://gist.github.com/peterxjang/7de16ed43ea506e98df3fa15074b84f8
 # SOLUTIONS (using .each shortcut): https://gist.github.com/peterxjang/a702894841c7018ed8c127b647ae21f8
 # SOLUTIONS (using .select shortcut): https://gist.github.com/peterxjang/b8c8fb8b77b2cae7bb9cc62a3a434761
+
+
+
+
+#  1. Start with an array of numbers and create a new array with each number times 3.
+#     For example, [1, 2, 3] becomes [3, 6, 9].
+numArray = [1,2,3]
+def multiply(array)
+index = 0
+newArr = []
+while index < array.length
+newArr << array[index] * 3
+index += 1
+end
+return newArr
+end
+
+p multiply(numArray)
+
+#  2. Start with an array of strings and create a new array with each string upcased.
+#     For example, ["hello", "goodbye"] becomes ["HELLO", "GOODBYE"].
+strArr = ["hello", "goodbye"]
+def stringy(array)
+index = 0
+upcased = []
+while index < array.length
+upcased << array[index].upcase
+
+index+=1
+end
+return upcased
+end
+
+p stringy(strArr)
+
+#  3. Start with an array of hashes and create a new array of string values from each hash's :name key.
+#     For example, [{name: "Alice", age: 27}, {name: "Blane", age: 16}] becomes ["Alice", "Blane"].
+people = [{name: "Alice", age: 27}, {name: "Blane", age: 16}]
+
+def personName(array)
+index=0
+names = []
+
+while index < array.length
+names << array[index][:name]
+index+=1
+end
+return names
+end
+
+p personName(people)
+
+#  4. Start with an array of numbers and create a new array with each number plus 7.
+#     For example, [1, 2, 3] becomes [8, 9, 10].
+def plusSeven (array)
+  sevenArr = []
+index = 0
+while index < array.length
+
+sevenArr << array[index] + 7
+index+=1
+end
+
+return sevenArr
+end
+
+ p plusSeven(numArray)
+#  5. Start with an array of strings and create a new array with each string's length.
+#     For example, ["hello", "goodbye"] becomes [5, 7].
+def strLength(array)
+index = 0
+sizes = []
+while index < array.length
+
+  sizes << array[index].length
+index+=1
+end
+
+return sizes
+
+end
+
+p strLength(strArr)
+#  6. Start with an array of hashes and create a new array of number values from each hash's :age key.
+#     For example, [{name: "Alice", age: 27}, {name: "Blane", age: 16}] becomes [27, 16].
+
+#  7. Start with an array of numbers and create a new array with each number divided by 2.
+#     For example, [1, 2, 3] becomes [0.5, 1.0, 1.5].
+
+#  8. Start with an array of strings and create a new array with each string's first letter only.
+#     For example, ["hello", "goodbye"] becomes ["h", "g"].
+
+# 9.  Start with an array of hashes and create a new array of number values from each hash's :age key times 2.
+#     For example, [{name: "Alice", age: 27}, {name: "Blane", age: 16}] becomes [54, 32].
+
+# 10. Start with an array of numbers and create a new array with each number converted into a string.
+#     For example, [1, 2, 3] becomes ["1", "2", "3"].
