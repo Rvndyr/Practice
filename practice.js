@@ -156,8 +156,8 @@
 // comparing two arrays at the same position of the index
 // Which ever value at each index we increase a named variable that stores a changing value (a delta) .. This will keep score..
 
-const a = [5, 6, 7, 3, 11];
-const b = [3, 6, 4, 10, 2];
-const score = []; // [1,1]
+// const a = [5, 6, 7, 3, 11];
+// const b = [3, 6, 4, 10, 2];
+// const score = []; // [1,1]
 
-const compareMe = (a, b) => {};
+// const compareMe = (a, b) => {};
