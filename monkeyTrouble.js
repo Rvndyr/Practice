@@ -7,5 +7,5 @@
 // monkeyTrouble(false, false) → true
 // monkeyTrouble(true, false) → false
 
-function monkeyTrouble(aSmile, bSmile) {}
-console.log(monkeyTrouble(true, true));
+// function monkeyTrouble(aSmile, bSmile) {}
+// console.log(monkeyTrouble(true, true));
