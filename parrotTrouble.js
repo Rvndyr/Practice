@@ -7,13 +7,12 @@
 // parrotTrouble(false, 6) → false
 
 const parrotTrouble = function (talking, hour) {
-  console.log(talking);
-  if ((true && hour < 7) || (true && hour > 20)) {
-    console.log("code block 1");
+  if ((talking === true && hour < 7) || (talking === true && hour > 20)) {
     return true;
   } else if (talking === false && hour < 7) {
-    console.log("code block 2");
+    return false;
+  } else {
     return false;
   }
 };
-console.log(parrotTrouble(false, 6));
+console.log(parrotTrouble(false, 21));
